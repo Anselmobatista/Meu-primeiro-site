@@ -99,3 +99,64 @@ main {
     float: left;
     position: relative;
 }
+
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../img/arrowanterior.png');
+    top: 35%;
+    left: 15%;
+}
+
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../img/arrowposterior.png');
+    top: 35%;
+    right: 15%;
+}
+
+.slick-list {
+    width: 100%! important;
+}
+
+.slick-initialized {
+    overflow: hidden;
+}
+
+.slick-dots li button {
+    font-size: 0px;
+    border: 2px solid #ffffff;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 47%;
+    top: 460px;
+}
+
+li.slick-active button {
+    background-color: #00bac6;
+}
+
+.slick-dots li {
+    padding-left: 10px;
+    display: inline-block
+}
