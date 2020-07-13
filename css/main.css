@@ -5,7 +5,7 @@ body {
 }
 
 ul {
-    padding: 0px! important;
+    padding: 0px ! important;
 }
 
 .menu-principal {
@@ -14,7 +14,8 @@ ul {
     height: 60px;
 }
 
-main {
+main,
+.content {
     margin: 0 auto;
     width: 980px;
     position: relative;
@@ -109,6 +110,7 @@ button.slick-prev {
     background-color: transparent;
     position: absolute;
     background-image: url('../img/arrowanterior.png');
+    outline: 0;
     top: 35%;
     left: 15%;
 }
@@ -122,12 +124,13 @@ button.slick-next {
     background-color: transparent;
     position: absolute;
     background-image: url('../img/arrowposterior.png');
+    outline: 0;
     top: 35%;
     right: 15%;
 }
 
 .slick-list {
-    width: 100%! important;
+    width: 100% ! important;
 }
 
 .slick-initialized {
@@ -136,12 +139,13 @@ button.slick-next {
 
 .slick-dots li button {
     font-size: 0px;
-    border: 2px solid #ffffff;
+    border: 5px solid #ffffff;
     width: 20px;
     height: 20px;
     background: transparent;
     border-radius: 50%;
     cursor: pointer;
+    outline: 0;
 }
 
 .slick-dots {
@@ -158,5 +162,40 @@ li.slick-active button {
 
 .slick-dots li {
     padding-left: 10px;
-    display: inline-block
+    display: inline-block;
+}
+
+.texto-destaque {
+    text-align: center;
+}
+
+.texto-destaque strong {
+    color: #646464;
+}
+
+.texto-destaque h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #818181;
+}
+
+.texto-destaque p {
+    font-size: 15px;
+    color: #9a9a9a;
+}
+
+.col-3 {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 29%;
+    float: left;
+    position: relative;
+}
+
+.bloco-texto {
+    margin-top: 3em;
+}
+
+h3 {
+    font-weight: normal ! important;
 }
