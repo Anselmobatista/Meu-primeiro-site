@@ -234,3 +234,16 @@ h3 {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.col-4 {
+    float: left;
+    width: 25%;
+    text-align: center;
+    height: 174px;
+}
+
+.col-4 img {
+    margin: 0 auto;
+    padding-top: 3em;
+    vertical-align: middle;
+}
